@@ -1,0 +1,45 @@
+/*848px*/
+@media only screen and (max-width: 53em) {
+
+  html {
+    font-size: 50%;
+  }
+
+  .wrong {
+    top: 14rem;
+    left: 14rem;
+  }
+
+  .wrongPassword {
+    top: 22rem;
+    left: 14rem;
+  }
+
+}
+
+/*530px*/
+@media only screen and (max-width: 33.125em) {
+  .form {
+    width: 90%;
+  }
+
+  input,
+  .input,
+  .input:focus {
+    width: 80%;
+  }
+
+  .wrong {
+    top: 14rem;
+    left: 8rem;
+  }
+
+  .wrongPassword {
+
+    left: 8rem;
+  }
+
+  .submit {
+    width: 80%;
+  }
+}
